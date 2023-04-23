@@ -3,7 +3,22 @@
 class Solution:
     def sort012(self,arr,n):
         # code here
-        arr.sort()
+        a=0
+        b=0
+        c=0
+        for i in arr:
+            if i==2:
+                a+=1
+            elif i==1:
+                b+=1
+            c=n-a-b
+        arr.clear()
+        for i in range(c):
+            arr.append(0)
+        for i in range(b):
+            arr.append(1)
+        for i in range(a):
+            arr.append(2)
 
 
 
