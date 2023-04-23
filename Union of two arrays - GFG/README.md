@@ -8,7 +8,7 @@
 
 <p><span style="font-size:18px"><strong>Example 1:</strong></span></p>
 
-<pre style="position: relative;"><span style="font-size:18px"><strong>Input:
+<pre><span style="font-size:18px"><strong>Input:
 </strong>5 3
 1 2 3 4 5
 1 2 3
@@ -18,11 +18,11 @@ Explanation:
 </strong>1, 2, 3, 4 and 5 are the
 elements which comes in the union set
 of both arrays. So count is 5.</span>
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+</pre>
 
 <p><span style="font-size:18px"><strong>Example 2:</strong></span></p>
 
-<pre style="position: relative;"><span style="font-size:18px"><strong>Input:
+<pre><span style="font-size:18px"><strong>Input:
 </strong>6 2 
 85 25 1 32 54 6
 85 2 
@@ -31,7 +31,7 @@ of both arrays. So count is 5.</span>
 Explanation: 
 </strong>85, 25, 1, 32, 54, 6, and
 2 are the elements which comes in the
-union set of both arrays. So count is 7.</span><div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+union set of both arrays. So count is 7.</span></pre>
 
 <p><strong><span style="font-size:18px">Your Task:</span></strong><br>
 <span style="font-size:18px">Complete <strong>doUnion </strong>funciton that takes<strong> a, n, b, m as parameters and returns</strong> the count of union elements of the&nbsp;two arrays. The <strong>printing </strong>is done by the <strong>driver </strong>code.</span></p>
