@@ -1,12 +1,8 @@
 #User function Template for python3
 
 def getMinMax( a, n):
-    q=[]
     a.sort()
-    q.append(a[0])
-    q.append(a[-1])
-    return q 
-    
+    return a[0],a[-1]
     
     
 
