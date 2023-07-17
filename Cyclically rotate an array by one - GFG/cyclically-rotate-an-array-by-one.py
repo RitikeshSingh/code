@@ -2,8 +2,10 @@
 
 def rotate( arr, n):
     a=arr[-1]
-    arr.pop(n-1)
-    arr.insert(0, a)
+    arr.pop()
+    arr.insert(0,a)
+    return arr
+    
     
 
 
